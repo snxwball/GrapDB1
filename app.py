@@ -235,5 +235,5 @@ elif page == "Admin / Setup":
         st.success("สร้างข้อมูลตัวอย่างเรียบร้อยแล้ว")
         st.rerun()
 elif page == "picture":
-    st.image(str(Path(__file__).parent / "image" / "indy.png"))
+    st.image(str(Path(__file__).parent / "st.image" / "indy.png"))
     
