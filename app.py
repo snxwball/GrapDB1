@@ -639,7 +639,7 @@ elif page == "Picture":
     image_path = (
         Path(__file__).parent
         / "st.image"
-        / "indy.png"
+        / "indy.jpg"
     )
 
     # แสดง path ให้ตรวจสอบได้
@@ -659,15 +659,3 @@ elif page == "Picture":
             caption="Indy",
             use_container_width=True,
         )
-
-    else:
-
-        st.error(
-            "ไม่พบไฟล์ indy.png"
-        )
-
-        st.write(
-            "กรุณาตรวจสอบโครงสร้างไฟล์:"
-        )
-
-        st.code()
