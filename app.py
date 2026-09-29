@@ -670,12 +670,4 @@ elif page == "Picture":
             "กรุณาตรวจสอบโครงสร้างไฟล์:"
         )
 
-        st.code(
-            """
-project/
-├── app.py
-├── neo4j_service.py
-└── st.image/
-    └── indy.png
-            """
-        )
+        st.code()
