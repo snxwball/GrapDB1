@@ -651,7 +651,7 @@ elif page == "Picture":
     if image_path.exists():
 
         st.success(
-            "พบไฟล์ indy.png แล้ว"
+            "พบไฟล์ indy.jpg แล้ว"
         )
 
         st.image(
